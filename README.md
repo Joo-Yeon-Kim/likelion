@@ -4,4 +4,5 @@
     세션 4 - startbootstrap  
     HTML 강의 수강 - html&css  
     CSS1 강의 수강 - css1  
+    CSS2 + Python1 강의 수강 - css2_python1  
   
