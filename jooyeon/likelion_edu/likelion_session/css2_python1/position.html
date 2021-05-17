@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>김주연입니다.</title>
+        <style>
+            body{ background-color:skyblue; margin: 0;} /*margin을 0으로 해서 기본 브라우저의 배경색이 보이지 않고 모서리에 붙도록 조정*/
+            #parent {
+                background-color: pink;
+                width: 200px;
+                height: 200px;
+            }
+            #child {
+                background-color: lemonchiffon;
+                width: 200px;
+                height: 100px;
+                position: relative;
+                top: 20px;
+                left: 20px;
+                /*static은 기본이기 때문에 top, left와 같은 좌표 프로퍼티가 적용되지 않음
+                relative로 바꾸면 적용됨*/
+            }
+            #child2 {
+                background-color: red;
+                width: 200px;
+                height: 100px;
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                /*position relative와 top, left가 없으면 postion이 static일때 있어야 하는 위치(기본위치)*/
+                /*부모나 조상 중 relative, absolute, fixed가 선언된 곳을 기준으로 프로퍼티 적용*/
+            }
+        </style>
+    </head>
+    <body>
+        <div id="parent">
+            <div id="child">
+                child
+            </div>
+            <div id="child2">
+                child2
+            </div>
+        </div>>
+    </body>
+</html>

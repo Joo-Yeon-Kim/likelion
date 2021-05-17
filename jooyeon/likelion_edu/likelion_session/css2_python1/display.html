@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>김주연입니다.</title>
+        <style>
+            body{ background-color:skyblue;}
+            #block {
+                background-color: pink;
+                width: 200px;
+                height: 100px;
+                margin: 200px;
+                padding: 200px;
+                display: none; /*브라우저에 해당 블럭이 아예 표시되지 않도록 함*/
+            }
+            #inline {
+                background-color: lemonchiffon;
+                width: 200px;
+                height: 100px;
+                margin: 200px; 
+                /*width, height 적용안됨, margin적용안되고 옆으로 움직이기만함*/
+                padding: 200px;
+                display: inline-block; /*위 적용 안되었던 것들 적용되도록 해줌*/
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="block">
+                block
+            </div>
+            <div id="inline">
+                inline
+            </div>
+        </div>>
+    </body>
+</html>
