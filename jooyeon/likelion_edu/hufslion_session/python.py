@@ -18,7 +18,7 @@ print(i)
 '''
 import random
 
-def lotto_number(): # 난수 생성 함수
+def lotto_number(): # 난수 생성
     num_list = [] # 6개의 추첨 번호를 넣을 리스트
 
     for i in range(6): # 6번 for문을 돌면서
