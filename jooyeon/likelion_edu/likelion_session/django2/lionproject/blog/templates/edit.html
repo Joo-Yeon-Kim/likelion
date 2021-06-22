@@ -1,3 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+
 <h1>Update Your Blogs</h1>
 
 <form action="{%url 'update' blog.id%}" method="post">
@@ -8,3 +14,4 @@
     <button type="submit">submit</button>
 
 </form>
+{% endblock %}
