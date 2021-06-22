@@ -8,4 +8,5 @@
     CSS2 + Python1 강의 수강 - css2_python1  
     Python 2 & 3 강의 수강 - python2  
     Django 1 강의 수강 - django  
+    Django 2 강의 수강 - django2  
     
