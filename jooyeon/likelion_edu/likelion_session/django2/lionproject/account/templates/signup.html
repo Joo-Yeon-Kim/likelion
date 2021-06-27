@@ -4,9 +4,9 @@
 
 
 
-<h1>Write Your Blogs</h1>
+<h1>Sing Up!</h1>
 
-<form action="{%url 'create'%}" method="post" enctype="multipart/form-data">
+<form action="{% url 'signup' %}" method="post">
     {%csrf_token%}
     {{form.as_p}}
     <button type="submit">submit</button>

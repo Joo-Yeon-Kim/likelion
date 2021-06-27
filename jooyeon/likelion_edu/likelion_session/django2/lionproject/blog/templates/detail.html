@@ -11,7 +11,7 @@
 </div>
 <hr>
 {% if blog.image %}
-<p><imag src="{{blog.image.url}}" alt=""></p>
+<p><img src="{{blog.image.url}}" alt=""></p>
 {% endif %}
 <p>{{blog.body}}</p>
 <a href="{% url 'edit' blog.id%}">수정하기</a>
